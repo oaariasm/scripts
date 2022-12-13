@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
+# Copia la actualización de Nod32 desde un directorio remoto a donde se encuentre el script
+
 import os
 import shutil
 import time
 import hashlib
 
-origin = 'Z:/Nod32Update/ActualizacionNod32.rar'
+origin = 'Z:/Nod32Update/ActualizacionNod32.rar' #Ruta de origen de la actualización. Cambiar esto.
 dest = os.getcwd()
 
 
